@@ -36,6 +36,10 @@ CREATE DATABASE livros_teste;
 composer install
 npm install
 ```
+## Laravel Mix
+```bash
+npm run production
+```
 ## Executar as Migrações e Seeders
 ```bash
 php artisan migrate:fresh --seed
