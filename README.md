@@ -51,9 +51,9 @@ php artisan serve
 ## Criação de Livro
 - [ ] Descrição: Testar a criação de um novo livro.
 - [ ] Método: `POST`
-- [ ] Endpoint: `/livros`
+- [ ] Endpoint: `/livros/salvar`
 - [ ] Dados do Teste:
-  - Parâmetros do formulário: `titulo`, `editora`, `edicao`, `ano_publicacao`, `autor_id`, `assunto_id`.
+  - Parâmetros do formulário: `titulo`, `editora`, `edicao`, `ano_publicacao`.
 - [ ] Expectativas:
   - Status HTTP 201 (Created) após a criação do livro.
   - Verificar se o livro foi inserido corretamente no banco de dados.
@@ -71,7 +71,7 @@ php artisan serve
 ## Atualização de Livro
 - [ ] Descrição: Testar a atualização dos detalhes de um livro existente.
 - [ ] Método: `PUT`
-- [ ] Endpoint: `/livros/{id}`
+- [ ] Endpoint: `/livros/{id}/atualizar`
 - [ ] Dados do Teste:
   - ID de um livro existente.
   - Novos parâmetros do formulário: `titulo`, `editora`, `edicao`, `ano_publicacao`, `autor_id`, `assunto_id`.
